@@ -1,0 +1,43 @@
+table#siw-server,
+table#siw-php,
+table#siw-wordpress {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding-top: 1.5em;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table#siw-server th,
+table#siw-server td,
+table#siw-php th,
+table#siw-php td,
+table#siw-wordpress th,
+table#siw-wordpress td {
+    margin: 0;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+table#siw-server th,
+table#siw-php th,
+table#siw-wordpress th {
+    white-space: nowrap;
+    min-width: 150px;
+}
+
+table#siw-server td,
+table#siw-php td,
+table#siw-wordpress td {
+    word-wrap: break-word;
+}
+
+table#siw-server tr + tr th,
+table#siw-server tr + tr td,
+table#siw-php tr + tr th,
+table#siw-php tr + tr td,
+table#siw-wordpress tr + tr th,
+table#siw-wordpress tr + tr td {
+    border-top: 1px solid #444;
+}
